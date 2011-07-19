@@ -1,0 +1,10 @@
+import org.flabs.bucket.Bucket
+
+description 'bucket behaviour'
+
+it 'should have an identifier', {
+    def bucket = new Bucket(identifier: '/test/zest')
+    assert bucket.identifier == '/test/zest'
+
+
+}
