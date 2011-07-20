@@ -5,6 +5,11 @@ description 'bucket behaviour'
 it 'should have an identifier', {
     def bucket = new Bucket(identifier: '/test/zest')
     assert bucket.identifier == '/test/zest'
+}
 
-
+it 'should be possible to attach any property', {
+    def bucket = new Bucket(identifier: '/test/zest')
+    bucket.npv = 10
+    assert bucket.npv == 10
+    assert bucket.identifier == '/test/zest'
 }
