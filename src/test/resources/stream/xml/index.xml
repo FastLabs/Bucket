@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:DBGMMessage xmlns:DbGMLBusHdr="DbGMLBusHdr" xmlns:UMS="dbCELLMap" xmlns:RDSXref="RDSXref" xmlns:RDSSystemAccount="RDSSystemAccount" xmlns:RDSAccount="RDSAccount" xmlns:RDSInstrument="RDSInstrument" xmlns:tns="DbGML" xmlns:RDSExecutionVenue="RDSExecutionVenue" xmlns:RDSTradeLine="RDSTradeLine" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <BusinessHdr xmlns:DbGMLBusHdr="DbGMLBusHdr">
+        <DbGMLBusHdr:BusObjectType>RDS/INDEX/INDEX</DbGMLBusHdr:BusObjectType>
+        <DbGMLBusHdr:BusObjectOwner/>
+        <DbGMLBusHdr:BusObjectId>RDS/INDEX/INDEX/86703492</DbGMLBusHdr:BusObjectId>
+        <DbGMLBusHdr:BusObjectVersion>1</DbGMLBusHdr:BusObjectVersion>
+        <DbGMLBusHdr:BusEventTimeStamp>2015-04-30T14:03:38</DbGMLBusHdr:BusEventTimeStamp>
+        <DbGMLBusHdr:BusObjectEventType>NEW</DbGMLBusHdr:BusObjectEventType>
+        <DbGMLBusHdr:SchemaVersion>9.13</DbGMLBusHdr:SchemaVersion>
+    </BusinessHdr>
+    <InstrumentPayload xmlns:RDSInstrument="RDSInstrument">
+        <RDSInstrument:InstrumentCore>
+            <RDSInstrument:IssueStatus>Active</RDSInstrument:IssueStatus>
+            <RDSInstrument:DenominatedCurrency>USD</RDSInstrument:DenominatedCurrency>
+        </RDSInstrument:InstrumentCore>
+        <RDSInstrument:InstrumentClassificationType/>
+        <RDSInstrument:Description>
+            <RDSInstrument:InstrumentDescription>
+                <RDSInstrument:InstrumentName>MSCI EM ASIA/TELECOM SVC USD NetTR</RDSInstrument:InstrumentName>
+                <RDSInstrument:SourceId>MarkIT</RDSInstrument:SourceId>
+            </RDSInstrument:InstrumentDescription>
+        </RDSInstrument:Description>
+        <RDSInstrument:Index>
+            <RDSInstrument:DataProviderName>MSCI</RDSInstrument:DataProviderName>
+            <RDSInstrument:RebalanceFrequency>Quarterly</RDSInstrument:RebalanceFrequency>
+            <RDSInstrument:RebalanceNotes>1st working day of March, June, September, December</RDSInstrument:RebalanceNotes>
+            <RDSInstrument:ReturnType>NetTR</RDSInstrument:ReturnType>
+            <RDSInstrument:TotalCapitalization>202268566304.471636266071989351214927794</RDSInstrument:TotalCapitalization>
+            <RDSInstrument:PositionComposition>
+                <RDSInstrument:AdjustmentFactor>0</RDSInstrument:AdjustmentFactor>
+                <RDSInstrument:Divisor>202268566304.472</RDSInstrument:Divisor>
+                <RDSInstrument:ConstituentCount>26</RDSInstrument:ConstituentCount>
+                <RDSInstrument:PositionType>Open</RDSInstrument:PositionType>
+                <RDSInstrument:MarketDate>2015-04-30</RDSInstrument:MarketDate>
+                <RDSInstrument:PositionValue>305.760841</RDSInstrument:PositionValue>
+                <RDSInstrument:DbDivisor>661525411.962325155954159610648114354186</RDSInstrument:DbDivisor>
+            </RDSInstrument:PositionComposition>
+            <RDSInstrument:PositionComposition>
+                <RDSInstrument:AdjustmentFactor>0</RDSInstrument:AdjustmentFactor>
+                <RDSInstrument:Divisor>204156665743</RDSInstrument:Divisor>
+                <RDSInstrument:ConstituentCount>26</RDSInstrument:ConstituentCount>
+                <RDSInstrument:PositionType>Close</RDSInstrument:PositionType>
+                <RDSInstrument:MarketDate>2015-04-29</RDSInstrument:MarketDate>
+                <RDSInstrument:PositionValue>305.760841</RDSInstrument:PositionValue>
+                <RDSInstrument:DbDivisor>667700497.798539218434449557260342569505</RDSInstrument:DbDivisor>
+            </RDSInstrument:PositionComposition>
+            <RDSInstrument:Constituent InstrumentRUID="87537487" InstrumentName="Taiwan Mobile Co Ltd ORD TWD 10" TradeLineRUID="87656092" ExecutionVenueRUID="8588613" PriceAmount="108.5" PriceCurrencyCode="TWD" BaseCurrencyCode="TWD" Weight=".029486900167254459601244406406134724886" DbExchangeRate=".032794411832223789066343095136588725281" UnitQuantity="3420832827" UnitMeasurementType="Shares" FloatFactor=".49" DbFloatFactor=".49" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".65" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="TW0003045001" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="3045 TT" StartTimestamp="2012-07-19T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@TX8" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="3045" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="2781901" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="3045.TW" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6290496" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91622217" InstrumentName="Asia Pacific Telecom Co Ltd ORD TWD 10" TradeLineRUID="94295523" ExecutionVenueRUID="8588613" PriceAmount="13.15" PriceCurrencyCode="TWD" BaseCurrencyCode="TWD" Weight=".004062347900873251148629893987229507768" DbExchangeRate=".032794411832223789066343095136588725281" UnitQuantity="3888515468" UnitMeasurementType="Shares" FloatFactor=".49" DbFloatFactor=".49" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".65" DbInclusionFactor="1" StartDate="2015-03-02" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="TW0003682001" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="7249401" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="3682.TW" StartTimestamp="2013-08-05T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="B6RN4B2" StartTimestamp="2013-08-05T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="3682" StartTimestamp="2013-08-05T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@ASIA" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="87518938" InstrumentName="Chunghwa Telecom ORD TWD 10" TradeLineRUID="87841997" ExecutionVenueRUID="8588613" PriceAmount="99.4" PriceCurrencyCode="TWD" BaseCurrencyCode="TWD" Weight=".06125939538769587850402402521101528682" DbExchangeRate=".032794411832223789066343095136588725281" UnitQuantity="7757446545" UnitMeasurementType="Shares" FloatFactor=".49" DbFloatFactor=".49" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".65" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="TW0002412004" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="2412 TT" StartTimestamp="2012-07-19T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@5X5" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="2412" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="2390001" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="2412.TW" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6287841" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91721517" InstrumentName="Far Eastone Telecommunications Co. Ltd. ORD TWD 10" TradeLineRUID="91782725" ExecutionVenueRUID="8588613" PriceAmount="72.9" PriceCurrencyCode="TWD" BaseCurrencyCode="TWD" Weight=".018871781157741695613214365119782027577" DbExchangeRate=".032794411832223789066343095136588725281" UnitQuantity="3258500810" UnitMeasurementType="Shares" FloatFactor=".49" DbFloatFactor=".49" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".55" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="TW0004904008" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="4904 TT" StartTimestamp="2010-09-03T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="4904" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="2835301" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="4904.TW" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6421854" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@QFT" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91749827" InstrumentName="Bharti Airtel Ltd. ORD INR 5" TradeLineRUID="92214157" ExecutionVenueRUID="8589199" PriceAmount="387.35" PriceCurrencyCode="INR" BaseCurrencyCode="INR" Weight=".018135113724681496547157533276069239489" DbExchangeRate=".015793422039720456429896947921190824022" UnitQuantity="3997400102" UnitMeasurementType="Shares" FloatFactor=".15" DbFloatFactor=".15" BasingConstant=".5" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".3" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="INE397D01024" StartTimestamp="2009-07-31T00:00:00-04:00"/>
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="INE397D01016" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2009-07-30T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="BRTI.NS" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2009-07-30T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6442327" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2009-07-30T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@YBT" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="BHARTIARTL" StartTimestamp="2009-07-31T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="2510701" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="BRTI.NS" StartTimestamp="2009-07-31T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6442327" StartTimestamp="2009-07-31T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91700246" InstrumentName="Idea Cellular Ltd. ORD INR 10" TradeLineRUID="95061726" ExecutionVenueRUID="8589199" PriceAmount="181.55" PriceCurrencyCode="INR" BaseCurrencyCode="INR" Weight=".015297609990072922797027565766080945542" DbExchangeRate=".015793422039720456429896947921190824022" UnitQuantity="3597147379" UnitMeasurementType="Shares" FloatFactor=".3" DbFloatFactor=".3" BasingConstant="0" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".3" DbInclusionFactor="1" StartDate="2015-03-02" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="INE669E01016" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@WVX" StartTimestamp="2007-12-12T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="IDEA IS" StartTimestamp="2013-02-20T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="IDEA" StartTimestamp="2007-12-12T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="3700701" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="IDEA.NS" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="B1MP4H4" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91700678" InstrumentName="Reliance Communications Ltd. ORD INR 5" TradeLineRUID="94609727" ExecutionVenueRUID="8589199" PriceAmount="61.65" PriceCurrencyCode="INR" BaseCurrencyCode="INR" Weight=".004047422816891645286238270280504054987" DbExchangeRate=".015793422039720456429896947921190824022" UnitQuantity="2402313078" UnitMeasurementType="Shares" FloatFactor=".35" DbFloatFactor=".35" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".35" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="INE330H01018" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="RCOM IS" StartTimestamp="2012-09-11T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="532712" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2009-03-17T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@F4F" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="RCOM" StartTimestamp="2009-03-18T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="3354301" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="RLCM.NS" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="B0WNLY7" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="87524478" InstrumentName="Globe Telecom Inc. ORD PHP 50" TradeLineRUID="87708027" ExecutionVenueRUID="8589900" PriceAmount="2160" PriceCurrencyCode="PHP" BaseCurrencyCode="PHP" Weight=".00799535182668311712746108532954701414" DbExchangeRate=".022563176895306859205776173285198555957" UnitQuantity="132730878" UnitMeasurementType="Shares" FloatFactor=".25" DbFloatFactor=".25" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".25" DbInclusionFactor="1" StartDate="2015-03-02" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="PHY272571498" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@GM" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="GLO" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="1647601" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="GLO.PS" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6284864" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="87504790" InstrumentName="Philippine Long Distance Telephone Co. ORD PHP 5" TradeLineRUID="87585765" ExecutionVenueRUID="8589900" PriceAmount="2888" PriceCurrencyCode="PHP" BaseCurrencyCode="PHP" Weight=".031321851768602772587970831168324454573" DbExchangeRate=".022563176895306859205776173285198555957" UnitQuantity="216055773" UnitMeasurementType="Shares" FloatFactor=".45" DbFloatFactor=".45" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".55" DbInclusionFactor="1" StartDate="2015-03-13" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="PH7182521093" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@PT" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="1534801" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="TEL.PS" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6685661" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="TEL" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="89456885" InstrumentName="Alibaba Health Information Technology Limited ORD HKD 0.01" TradeLineRUID="91993504" ExecutionVenueRUID="8587699" PriceAmount="12.78" PriceCurrencyCode="HKD" BaseCurrencyCode="HKD" Weight=".019987542902303549206043158917574068205" DbExchangeRate=".129024766303892032075556903147559173983" UnitQuantity="8172644639" UnitMeasurementType="Shares" FloatFactor=".3" DbFloatFactor=".3" BasingConstant=".65" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".3" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="BMG0171K1018" StartTimestamp="2014-10-24T00:00:00-04:00"/>
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="BMG2154E1021" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2014-10-23T00:00:00-04:00"/>
+                <RDSInstrument:InstrumentIdentifier IdType="CUSIP" IdValue="G2154E102" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2014-10-23T00:00:00-04:00"/>
+                <RDSInstrument:InstrumentIdentifier IdType="CUSIP" IdValue="G0171K101" StartTimestamp="2014-10-24T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="BRXVS60" StartTimestamp="2014-10-24T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@SHN" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="241" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="3006901" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="0241.HK" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6100744" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2014-10-23T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="87520197" InstrumentName="China Telecom ORD H CNY 1" TradeLineRUID="87669702" ExecutionVenueRUID="8587699" PriceAmount="5.96" PriceCurrencyCode="HKD" BaseCurrencyCode="HKD" Weight=".05275934122937278955966361676805561377" DbExchangeRate=".129024766303892032075556903147559173983" UnitQuantity="13877410000" UnitMeasurementType="Shares" FloatFactor="1" DbFloatFactor="1" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor="1" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="CNE1000002V2" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="728 HK" StartTimestamp="2013-12-12T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="2786701" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="0728.HK" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6559335" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="728" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@4QY" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="87500679" InstrumentName="China Unicom (Hong Kong) Ltd ORD HKD 0.1" TradeLineRUID="87831897" ExecutionVenueRUID="8587699" PriceAmount="15.46" PriceCurrencyCode="HKD" BaseCurrencyCode="HKD" Weight=".058888021928272622965749686372810117612" DbExchangeRate=".129024766303892032075556903147559173983" UnitQuantity="23885414551" UnitMeasurementType="Shares" FloatFactor=".25" DbFloatFactor=".25" BasingConstant="0" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".25" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="HK0000049939" StartTimestamp="2008-10-15T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="762 HK" StartTimestamp="2013-12-12T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="0762.HK" StartTimestamp="2008-10-15T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6263830" StartTimestamp="2008-10-15T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@2CU" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="762" StartTimestamp="2008-10-15T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="2373301" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91699527" InstrumentName="China Comms Services Corp Ltd ORD H CNY 1" TradeLineRUID="94703593" ExecutionVenueRUID="8587699" PriceAmount="4.35" PriceCurrencyCode="HKD" BaseCurrencyCode="HKD" Weight=".006635747353552364726976875616761272891" DbExchangeRate=".129024766303892032075556903147559173983" UnitQuantity="2391420240" UnitMeasurementType="Shares" FloatFactor="1" DbFloatFactor="1" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor="1" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="CNE1000002G3" StartTimestamp="2007-10-12T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="552 HK" StartTimestamp="2010-11-10T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="3602801" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="0552.HK" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="B1HVJ16" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@YRV" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="552" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="87538019" InstrumentName="China Mobile Ltd ORD HKD 0.1" TradeLineRUID="87822208" ExecutionVenueRUID="8587699" PriceAmount="113.7" PriceCurrencyCode="HKD" BaseCurrencyCode="HKD" Weight=".443645237577125044086388648849716503262" DbExchangeRate=".129024766303892032075556903147559173983" UnitQuantity="20389633499" UnitMeasurementType="Shares" FloatFactor=".3" DbFloatFactor=".3" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".3" DbInclusionFactor="1" StartDate="2015-03-02" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="HK0941009539" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:InstrumentIdentifier IdType="WPK" IdValue="909622" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="941 HK" StartTimestamp="2013-12-12T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@5CN" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="941" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="2253501" StartTimestamp="2005-11-24T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="0941.HK" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6073556" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91687476" InstrumentName="Advanced Info Service ORD THB 1" TradeLineRUID="93991873" ExecutionVenueRUID="8587883" PriceAmount="239" PriceCurrencyCode="THB" BaseCurrencyCode="THB" Weight=".037446338881712519304629048892855760284" DbExchangeRate=".030455306837216384955078422415105832191" UnitQuantity="2973095330" UnitMeasurementType="Shares" FloatFactor=".35" DbFloatFactor=".35" BasingConstant="0" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".4" DbInclusionFactor="1" StartDate="2015-03-27" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="TH0268010Z03" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="ADVANC TB" StartTimestamp="2012-07-19T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@AZ3" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="ADVANC" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="1646601" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="ADVA.BK" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2014-02-09T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6412568" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="ADVANC.BK" StartTimestamp="2014-02-10T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91690159" InstrumentName="True Corporation Public Co Ltd. ORD THB 10" TradeLineRUID="94936306" ExecutionVenueRUID="8587883" PriceAmount="12.3" PriceCurrencyCode="THB" BaseCurrencyCode="THB" Weight=".015950811732319484218946563028113930949" DbExchangeRate=".030455306837216384955078422415105832191" UnitQuantity="24607928150" UnitMeasurementType="Shares" FloatFactor=".35" DbFloatFactor=".35" BasingConstant=".35" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".35" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="TH0375010004" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="TRUE TB" StartTimestamp="2012-09-11T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@TZZ" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="TRUE" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="1672701" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="TRUE.BK" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6875934" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91493451" InstrumentName="Maxis Berhad ORD MYR 0.1" TradeLineRUID="95129106" ExecutionVenueRUID="8589225" PriceAmount="7" PriceCurrencyCode="MYR" BaseCurrencyCode="MYR" Weight=".018245067707458452044466166774255346785" DbExchangeRate=".280938334035679168422531254389661469308" UnitQuantity="7506281100" UnitMeasurementType="Shares" FloatFactor=".25" DbFloatFactor=".25" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".25" DbInclusionFactor="1" StartDate="2015-03-02" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="MYL6012OO008" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@7IH" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="6012" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="6355201" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="MXSC.KL" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="B5387L5" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91749279" InstrumentName="Digi.Com Bhd ORD MYR 0.1" TradeLineRUID="94088353" ExecutionVenueRUID="8589225" PriceAmount="6.05" PriceCurrencyCode="MYR" BaseCurrencyCode="MYR" Weight=".029400241153154870525545394323818957594" DbExchangeRate=".280938334035679168422531254389661469308" UnitQuantity="7775000000" UnitMeasurementType="Shares" FloatFactor=".45" DbFloatFactor=".45" BasingConstant=".35" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".45" DbInclusionFactor="1" StartDate="2015-04-16" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="MYL6947OO005" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="DIGI" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2009-03-17T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@MS5" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="6947" StartTimestamp="2009-03-18T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="2427301" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="DSOM.KL" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6086242" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="87479434" InstrumentName="Axiata Group Berhad ORD MYR 1" TradeLineRUID="87625369" ExecutionVenueRUID="8589225" PriceAmount="6.83" PriceCurrencyCode="MYR" BaseCurrencyCode="MYR" Weight=".024420498128990760896152379043590110315" DbExchangeRate=".280938334035679168422531254389661469308" UnitQuantity="8580842951" UnitMeasurementType="Shares" FloatFactor=".3" DbFloatFactor=".3" BasingConstant="0" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".55" DbInclusionFactor="1" StartDate="2015-03-02" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="MYL6888OO001" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2009-04-02T00:00:00-04:00"/>
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="MYL6888OO001" StartTimestamp="2009-04-03T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="AXIATA MK" StartTimestamp="2012-07-19T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@0IV" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="6082601" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="AXIA.KL" StartTimestamp="2009-04-03T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="B2QZGV5" StartTimestamp="2009-04-03T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="6888" StartTimestamp="2009-04-03T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="B2QZGV5" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2009-04-02T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="TMIT.KL" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2009-04-02T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="TMI" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2009-04-02T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91696430" InstrumentName="Telekom Malaysia BHD ORD MYR 1" TradeLineRUID="93567155" ExecutionVenueRUID="8589225" PriceAmount="7.47" PriceCurrencyCode="MYR" BaseCurrencyCode="MYR" Weight=".011576938601274009570052147187837881212" DbExchangeRate=".280938334035679168422531254389661469308" UnitQuantity="3719368999" UnitMeasurementType="Shares" FloatFactor=".3" DbFloatFactor=".3" BasingConstant=".5" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".55" DbInclusionFactor="1" StartDate="2015-03-02" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="MYL4863OO006" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="T MK" StartTimestamp="2012-09-11T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@TLM" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="4863" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="1564801" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="TLMM.KL" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6868398" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="87506790" InstrumentName="XL Axiata Tbk PT ORD IDR 100" TradeLineRUID="87713065" ExecutionVenueRUID="8588087" PriceAmount="4030" PriceCurrencyCode="IDR" BaseCurrencyCode="IDR" Weight=".004599260683124553612469596902022049659" DbExchangeRate=".000077279752704791344667697063369397218" UnitQuantity="8534490667" UnitMeasurementType="Shares" FloatFactor=".35" DbFloatFactor=".35" BasingConstant=".65" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".35" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="ID1000102502" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@Q2O" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="EXCL" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="6403001" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="EXCL.JK" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="B0LD0W9" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91666200" InstrumentName="Tower Bersama Infrastructure Tbk PT ORD IDR 100" TradeLineRUID="92658733" ExecutionVenueRUID="8588087" PriceAmount="8350" PriceCurrencyCode="IDR" BaseCurrencyCode="IDR" Weight=".006120834195902495006567557060683988843" DbExchangeRate=".000077279752704791344667697063369397218" UnitQuantity="4796526199" UnitMeasurementType="Shares" FloatFactor=".4" DbFloatFactor=".4" BasingConstant="0" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".4" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="ID1000116908" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="TBIG" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="6789101" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="TBIG.JK" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="B4MW045" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@OMU" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="90105324" InstrumentName="Telekomunikasi Indonesia ORD B IDR 250" TradeLineRUID="93307693" ExecutionVenueRUID="8588087" PriceAmount="2700" PriceCurrencyCode="IDR" BaseCurrencyCode="IDR" Weight=".051991412035118189066403419256613948134" DbExchangeRate=".000077279752704791344667697063369397218" UnitQuantity="100799996400" UnitMeasurementType="Shares" FloatFactor=".5" DbFloatFactor=".5" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".5" DbInclusionFactor="1" StartDate="2015-04-28" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="ID1000129000" StartTimestamp="2013-08-28T00:00:00-04:00"/>
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="ID1000099104" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2013-08-27T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="TLKM" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="1853501" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="TLKM.JK" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="B02ZK79" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2013-08-27T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@T4I" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="BD4T6W7" StartTimestamp="2013-08-28T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91717269" InstrumentName="SK Telecom Co Ltd ORD KRW 500" TradeLineRUID="91763047" ExecutionVenueRUID="8588184" PriceAmount="288500" PriceCurrencyCode="KRW" BaseCurrencyCode="KRW" Weight=".012933109677518485668712205895268470635" DbExchangeRate=".000935803855511884708965000935803855512" UnitQuantity="80745711" UnitMeasurementType="Shares" FloatFactor=".12" DbFloatFactor=".12" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".6" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="KR7017670001" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="017670 KP" StartTimestamp="2013-01-28T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@KMM" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="017670" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="1572101" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="017670.KS" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6224871" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91735412" InstrumentName="KT Corp ORD KRW 5000" TradeLineRUID="91778611" ExecutionVenueRUID="8588184" PriceAmount="30900" PriceCurrencyCode="KRW" BaseCurrencyCode="KRW" Weight=".004479429145306748965003708435426917172" DbExchangeRate=".000935803855511884708965000935803855512" UnitQuantity="261111808" UnitMeasurementType="Shares" FloatFactor=".12" DbFloatFactor=".12" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".9" DbInclusionFactor="1" StartDate="2015-04-07" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="KR7030200000" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="030200 KP" StartTimestamp="2013-01-28T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@JQJ" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="030200" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="2280701" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="030200.KS" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6505316" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+            <RDSInstrument:Constituent InstrumentRUID="91760264" InstrumentName="LG Uplus ORD KRW 5000" TradeLineRUID="94610022" ExecutionVenueRUID="8588184" PriceAmount="10550" PriceCurrencyCode="KRW" BaseCurrencyCode="KRW" Weight=".010442392326995821363261850129907806895" DbExchangeRate=".000935803855511884708965000935803855512" UnitQuantity="436611361" UnitMeasurementType="Shares" FloatFactor=".49" DbFloatFactor=".49" BasingConstant="1" DbBasingConstant="1" AdjustmentFactor="1" DbAdjustmentFactor="1" InclusionFactor=".55" DbInclusionFactor="1" MatchIndexCurrencyIndicator="0">
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="KR7032640005" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2010-07-13T00:00:00-04:00"/>
+                <RDSInstrument:InstrumentIdentifier IdType="ISIN" IdValue="KR7032640005" StartTimestamp="2010-07-14T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="BBTICK" IdValue="032640 KP" StartTimestamp="2013-08-29T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="IBES" IdValue="@1LG" StartTimestamp="2010-06-11T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="032640" StartTimestamp="2010-07-14T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="MSCI" IdValue="2796801" StartTimestamp="1000-01-01T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="032640.KS" StartTimestamp="2010-07-14T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6290902" StartTimestamp="2010-07-14T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="SEDOL" IdValue="6290902" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2010-07-13T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="RIC" IdValue="032640.KS" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2010-07-13T00:00:00-04:00"/>
+                <RDSInstrument:TradeLineIdentifier IdType="EXCHLOCALTICK" IdValue="032640" StartTimestamp="1000-01-01T00:00:00-04:00" EndTimestamp="2010-07-13T00:00:00-04:00"/>
+            </RDSInstrument:Constituent>
+        </RDSInstrument:Index>
+    </InstrumentPayload>
+    <XRefMessage xmlns:RDSXref="RDSXref" entityType="Index">
+        <RDSXref:uid>86703492</RDSXref:uid>
+        <RDSXref:alternateId>
+            <RDSXref:id>.dMIMS0TS00NUS</RDSXref:id>
+            <RDSXref:idType>RIC</RDSXref:idType>
+            <RDSXref:startDate>1000-01-01T00:00:00-04:00</RDSXref:startDate>
+        </RDSXref:alternateId>
+        <RDSXref:alternateId>
+            <RDSXref:id>111520</RDSXref:id>
+            <RDSXref:idType>MSCI</RDSXref:idType>
+            <RDSXref:startDate>1000-01-01T00:00:00-04:00</RDSXref:startDate>
+        </RDSXref:alternateId>
+        <RDSXref:alternateId>
+            <RDSXref:id>MSCI_111520_USD_NR</RDSXref:id>
+            <RDSXref:idType>MUPID</RDSXref:idType>
+            <RDSXref:startDate>1000-01-01T00:00:00-04:00</RDSXref:startDate>
+        </RDSXref:alternateId>
+    </XRefMessage>
+</tns:DBGMMessage>

@@ -86,7 +86,7 @@ public class JSonStreamerTest {
 
     @Test
     public void test() throws IOException {
-        JsonParser x = new JsonFactory().createParser("[{\"name\" : \"oleg\"}]").setCodec(new ObjectC);
+        JsonParser x = new JsonFactory().setCodec(new XCodec()).createParser("[{\"name\" : \"oleg\"}]");
         JsonToken t = x.nextToken();
         while (t != null) {
             System.out.println(t);
