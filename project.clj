@@ -8,5 +8,6 @@
                            [com.fasterxml.jackson.core/jackson-core "2.6.0-rc2"]
                            [io.reactivex/rxjava "1.0.12"]
                            [io.reactivex/rxjava-async-util "0.21.0"]
+                           [junit/junit "4.11"]
                            ;;   [io.reactivex/rxjava-joins "0.22.0"]
                            [com.fasterxml.jackson.core/jackson-databind "2.6.0-rc2"]])
